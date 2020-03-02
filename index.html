@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="navbar">
+        <a href="#">Lattitude</a>
+    </nav>  
+    <nav class = 'navbar_right'>
+        <a href="#">Comparison</a>
+       <a href="#">Data</a>
+            
+      <select id = 'nav-select'>
+        <option value="plots">Plots</option>
+        <option value="Temp" >Temperature </option>
+        <option value="Humidity">Humidity</option>
+        <option value="Cloudiness">Cloudiness</option>
+        <option value="WindSpeed">Wind Speed</option>
+           
+    </nav>
+      </select>
+    
+   
+
+    <!-- First Row -->
+    <div class="row">
+
+      <!-- Create 3 columns -->
+      <div class="col-md-8 col-sm-4">
+        <h1>Summary: Latitude vs. X</h1>
+        <hr>
+        <!-- insert visualization and text below header -->
+        
+       
+      </div>
+      <div class="col-md-4 col-sm-2">
+        <h1>Visualizations</h1>
+        <hr>
+        <!-- <div class = "aligned_graphs">
+            <img src = "resources/CloudsvLat.png">
+            <img src = "resources/HumidityvLat.png">          
+            <img src = "resources/TempvLat.png">
+            <img src = "resources/WindvLat.png"> -->
+    <div class="row">
+      <div class="col-md-8 col-sm-4">
+        <div class = "text">
+          <!-- <img src="resources/TempvLat.png" align = left class = "img-responsive"> -->
+        </div>
+      </div>
+
+      <div class="col-md-2 col-sm-1">
+
+            <div class="images">
+              <div class="column">
+                  <img src = "resources/CloudsvLat.png"  class = "img-responsive" style = "width: 100%">
+                  <img src = "resources/HumidityvLat.png" class = "img-responsive" style = "width: 100%">
+              </div>
+              <!-- <div class="column">
+                  <img src = "resources/HumidityvLat.png" class = "img-responsive" style = "width: 100%">
+              </div> -->
+      <div class="col-md-2 col-sm-1">
+                <div class="column">
+                    <img src = "resources/TempvLat.png" class = "img-responsive" style = "width: 100%">
+                    <img src = "resources/WindvLat.png" class = "img-responsive" style = "width: 100%">
+
+                </div>
+                <!-- <div class="column">
+                    <img src = "resources/WindvLat.png" class = "img-responsive" style = "width: 100%">
+                </div> -->
+        </div>
+
+        <!-- insert visualizations  -->
+        <!-- create class to size and position each visualization -->
+      </div> 
+    </div>      
+    </div>
+    
+  <!-- end of home page -->
+
+  <!-- insert navbar here -->
+  <!-- comparison page -->
+
+  <!-- First Row -->
+  <div class="row">
+  <!-- Create 2 columns -->
+    <div class="col-md-8 col-sm-4">
+        <h1>Comparison: Latitude vs. X</h1>
+        <!-- insert horizontal line -->
+    </div>
+    <div class = "col-md-6 col-sm-3">
+        <h3>vs. temperature</h3>
+        <!-- insert graph here as a class -->
+    </div>
+    <div class = "col-md-6 col-sm-3">
+        <h3>vs. humidity</h3>
+        <!-- insert graph here as a class -->
+    </div>
+    </div>
+    <!-- second Row -->
+  <div class="row">
+    <div class = "col-md-6 col-sm-3">
+        <h3>vs. cloudiness</h3>
+        <!-- insert graph here as a class -->
+    </div>
+    <div class = "col-md-6 col-sm-3">
+        <h3>vs. wind speed</h3>
+        <!-- insert graph here as a class -->
+    </div> 
+    </div>
+
+
+    <!-- insert navbar here -->
+    <!-- data page -->
+    <!-- First Row -->
+    <div class="row">
+
+        <!-- Create 1 column -->
+        <div class="col-md-12 col-sm-6">
+          <h1>Data</h1>
+          <!-- insert horizontal line -->
+        </div>
+        <div class="col-md-12 col-sm-6">
+          <h41>The following is the data used to create the graphs.</h4>
+          <!-- insert data table -->
+        </div>
+
+    <!-- insert navbar here -->
+    <!-- visualization page for temperature-->
+    <!-- First Row -->
+    <div class="row">
+
+        <!-- Create 2 columns -->
+        <div class="col-md-8 col-sm-4">
+          <h1>vs. Temperature</h1>
+          <!-- insert horizontal line -->
+        </div>
+        <div class="col-md-4 col-sm-2">
+            <h1>Visualizations</h1>
+            <!-- insert visualizations  -->
+            <!-- create class to size and position each visualization -->
+          </div>
+</body>
+
+</html>
