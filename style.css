@@ -1,0 +1,30 @@
+.navbar{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(43, 5, 68);
+    
+    
+}
+
+.navbar_right{
+    
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: rgb(35, 18, 97);
+}
+
+.h1 {
+    text-align: left;
+    padding: 20px;
+}
+
+.body{
+    background-color: lightslategray;
+}
+
+.h4{
+    text-align: left;
+}
