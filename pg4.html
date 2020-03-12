@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -18,20 +18,28 @@
 </div>  
 
 <div>
-<nav class = 'navbar_right'>
+  <nav class = 'navbar_right'>
     
         
-  <h4>Plots</h4>
-     <a href = "pg4.html"></a>
-    <a href = "pg7.html">Humidity</a>   
-    <a href = "pg5.html">Cloudiness</a>
-    <a href = "pg6.html">Wind Speed</a>
-    
   
-    <a href="pg3.html">Comparison</a>
-    <a href="pg2.html">Data</a>
-       
-</nav>
+    <div class="dropdown">
+      <button class="dropdown-button">Plots</button>
+      <div class="dropdown-list">
+        <a href = "pg4.html">Temperature</a>
+        <a href = "pg7.html">Humidity</a>
+        <a href = "pg5.html">Cloudiness</a>
+        <a href = "pg6.html">Wind Speed</a>
+        
+      </div>
+    </div>
+    
+      
+      
+    
+      <a href="pg3.html">Comparison</a>
+      <a href="pg2.html">Data</a> 
+         
+  </nav>
 </div>
 
 
@@ -39,6 +47,7 @@
 
     
 <!-- First Row -->
+<div class='container'>
 <div class="row">
 
     <!-- Create 3 columns -->
@@ -47,7 +56,9 @@
       <hr>
       <div class="col-md-8">
         <div class="imageAndText">        
-          <img src="resources/fig1.png" align = left style="width:100%">          
+          <img src="resources/fig1.png" class= "float-left"  style="width:60%"> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur optio dolorem dolores odio alias perferendis, commodi cum. Natus libero cum 
+            dolore officia quia eveniet modi reprehenderit soluta ratione quisquam? Sequi.</p>         
         </div>
       </div>
       
@@ -82,7 +93,7 @@
   </body>
   </html>
 
-
+</div>
 </body>
 
 </html>
